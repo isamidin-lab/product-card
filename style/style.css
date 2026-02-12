@@ -22,7 +22,7 @@ body {
   justify-content: center;
   margin: 0;
   padding: 220px 0 102px;
-  background-image: url("../img/bg-dandelions.png.png");
+  background-image: url("../img/bg-dandelions.png");
   background-size: 790px 697px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,15 +69,6 @@ body {
   align-self: flex-start;
 }
 
-.product-card__for-skin {
-  font-weight: 400;
-  font-size: 12px;
-  text-transform: uppercase;
-  color: #A5A3B9;
-  margin: 30px 0 10px;
-  align-self: flex-start;
-}
-
 .product-card__title {
   font-size: 20px;
   font-weight: 700;
@@ -86,7 +77,7 @@ body {
   align-self: flex-start;
 }
 
-.product-card_description {
+.product-card__description {
   font-size: 13px;
   font-weight: 400;
   margin: 0;
