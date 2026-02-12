@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-.product-card-wrapper {
+.product-cards-wrapper {
   display: flex;
   flex-direction: column;
   width: 1280px;
@@ -16,13 +16,13 @@ body {
   padding: 0 85px; 
 }
 
-.product-card-wrapper__title {
+.product-cards-wrapper__title {
   color: #515076;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 220px 0 102px;
-  background-image: url('../img/fon.png');
+  background-image: url("../img/bg-dandelions.png.png");
   background-size: 790px 697px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,12 +30,12 @@ body {
   font-size: 70px;
   }
 
-.product-card-wrapper__line {
+.product-cards-wrapper__line {
   display: flex;
   justify-content: space-between;
 }
 
-.product-card-wrapper__line:last-child {
+.product-cards-wrapper__line:last-child {
   justify-content: center;
   margin-top: 45px;
   gap: 45px
@@ -103,11 +103,11 @@ body {
   align-self: flex-start;
 }
 
-.product-card__composition p {
+.product-card__compound {
   margin: 15px 0 0;
 }
 
-.product-card__composition ul {
+.product-card__compound-list {
   list-style-position: inside;
   line-height: 18px;
   padding-left: 0px;
@@ -120,14 +120,11 @@ body {
   color: #515076;
   display: flex;
   justify-content: space-between;
-}
-
-.product-card__price span {
   font-weight: 700;
   font-size: 20px;
 }
 
-.product-card__price span:last-child {
+.product-card__price:last-child {
   font-weight: 400;
   font-size: 20px;
 }
